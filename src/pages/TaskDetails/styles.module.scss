@@ -1,0 +1,22 @@
+.container {
+  height: calc(
+    100vh - 4.5rem - 2 * 5rem
+  ); // screen height - header height - content padding
+  position: relative;
+
+  > button {
+    position: absolute;
+    background: transparent;
+
+    @media (max-width: 1000px) {
+      left: 5%;
+    }
+  }
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

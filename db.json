@@ -1,0 +1,14 @@
+{
+	"tasks": [
+		{ "id": 1, "title": "homework", "description": "Do the school homework", "completed": true },
+		{ "id": 2, "title": "exercise", "description": "Go for a morning jog", "completed": false },
+		{ "id": 3, "title": "groceries", "description": "Buy groceries for the week", "completed": false },
+		{ "id": 4, "title": "cleaning", "description": "Clean the house", "completed": true },
+		{ "id": 5, "title": "meeting", "description": "Attend a team meeting", "completed": true },
+		{ "id": 6, "title": "gardening", "description": "Plant some new flowers in the garden", "completed": false },
+		{ "id": 7, "title": "reading", "description": "Read a new book", "completed": false },
+		{ "id": 8, "title": "writing", "description": "Write a new blog post", "completed": true },
+		{ "id": 9, "title": "cooking", "description": "Try a new recipe for dinner", "completed": false },
+		{ "id": 10, "title": "shopping", "description": "Go shopping for new clothes", "completed": true }
+	]
+}

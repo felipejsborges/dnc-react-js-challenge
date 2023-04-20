@@ -1,0 +1,35 @@
+.container {
+  margin-top: 5rem;
+  width: 100%;
+  max-width: 50%;
+  border-collapse: collapse;
+
+  @media (max-width: 1000px) {
+    max-width: 100%;
+    margin-top: 5rem;
+  }
+
+  th,
+  td {
+    text-align: center;
+  }
+
+  th:first-child,
+  td:first-child {
+    text-align: left;
+  }
+
+  th:last-child,
+  td:last-child {
+    text-align: right;
+  }
+
+  th {
+    padding-bottom: 2.5rem;
+    border-bottom: 6px solid #fff;
+  }
+
+  td {
+    padding-top: 1rem;
+  }
+}

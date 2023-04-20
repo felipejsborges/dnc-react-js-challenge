@@ -1,0 +1,7 @@
+.content {
+  padding: 5rem 10%;
+
+  @media (max-width: 1000px) {
+    padding: 3rem 5%;
+  }
+}
